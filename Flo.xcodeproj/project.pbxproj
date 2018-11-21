@@ -12,6 +12,8 @@
 		4343F7CE21A56F42002DF6CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4343F7CC21A56F42002DF6CC /* Main.storyboard */; };
 		4343F7D021A56F45002DF6CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4343F7CF21A56F45002DF6CC /* Assets.xcassets */; };
 		4343F7D321A56F45002DF6CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4343F7D121A56F45002DF6CC /* LaunchScreen.storyboard */; };
+		4343F7DB21A56F96002DF6CC /* PushButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4343F7DA21A56F96002DF6CC /* PushButton.swift */; };
+		4343F7DD21A58EBB002DF6CC /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4343F7DC21A58EBB002DF6CC /* CounterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		4343F7CF21A56F45002DF6CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4343F7D221A56F45002DF6CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4343F7D421A56F45002DF6CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4343F7DA21A56F96002DF6CC /* PushButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushButton.swift; sourceTree = "<group>"; };
+		4343F7DC21A58EBB002DF6CC /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				4343F7CF21A56F45002DF6CC /* Assets.xcassets */,
 				4343F7D121A56F45002DF6CC /* LaunchScreen.storyboard */,
 				4343F7D421A56F45002DF6CC /* Info.plist */,
+				4343F7DA21A56F96002DF6CC /* PushButton.swift */,
+				4343F7DC21A58EBB002DF6CC /* CounterView.swift */,
 			);
 			path = Flo;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			files = (
 				4343F7CB21A56F42002DF6CC /* ViewController.swift in Sources */,
 				4343F7C921A56F42002DF6CC /* AppDelegate.swift in Sources */,
+				4343F7DB21A56F96002DF6CC /* PushButton.swift in Sources */,
+				4343F7DD21A58EBB002DF6CC /* CounterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
